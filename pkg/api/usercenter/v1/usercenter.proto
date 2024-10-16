@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package usercenter.v1;
+
+option go_package = "github.com/rosas99/streaming/pkg/api/usercenter/v1";
+
+service UserCenter {
+    rpc Authorize(AuthzRequest) returns (AuthzResponse) {}
+}
+
+message AuthzRequest {
+  string token = 1;
+  string password = 2;
+}
+
+message AuthzResponse {
+  string userId = 1;
+}
+
