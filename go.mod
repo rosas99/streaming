@@ -45,7 +45,7 @@ require (
 	google.golang.org/protobuf v1.34.2
 	gorm.io/driver/mysql v1.5.1-0.20230509030346-3715c134c25b
 	gorm.io/gen v0.3.23
-	gorm.io/gorm v1.25.1-0.20230505075827-e61b98d69677
+	gorm.io/gorm v1.25.12
 	k8s.io/api v0.30.2
 	k8s.io/apimachinery v0.30.2
 	k8s.io/apiserver v0.30.2
